@@ -4,4 +4,3 @@
 -- Create a report showing appetizers and beverages.
 -- Create a report with all items except beverages.
 SELECT Price 
-FROM 

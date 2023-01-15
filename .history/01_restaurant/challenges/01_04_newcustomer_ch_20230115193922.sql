@@ -10,5 +10,4 @@ VALUES ('Anna', 'Smith', 'asmith@samoca.org', '479 Lapis Drive', 'Memphis', 'TN'
 
 SELECT * FROM Customers ORDER BY CUSTOMERID DESC
 
--- I had multiple entries w/ Annas info so I deleted them & did it again. 
-DELETE FROM Customers where FirstName = 'Anna' AND LastName = 'Smith'
+DELETE FROM Customers where 

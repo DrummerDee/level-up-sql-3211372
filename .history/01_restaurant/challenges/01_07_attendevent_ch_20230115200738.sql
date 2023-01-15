@@ -3,4 +3,4 @@
 -- The customer 'atapley2j@kinetecoinc.com' will be in
 -- attendance, and will bring 3 friends.
 
-INSERT INTO Reservations (CustomerID, PartySize) VALUES (92, 3);
+INSERT INTO Reservations (CustomerID, PartySize) VALUES (
