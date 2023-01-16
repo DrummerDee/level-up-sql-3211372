@@ -11,6 +11,4 @@ SELECT PatronID FROM Patrons WHERE Email = 'jvaan@wisdompets.com'
 -- Get books id from patrons 
 SELECT BookID FROM Books WHERE Barcode IN (2855934983, 4043822646)
 
-INSERT INTO Loans (BookID, PatronID, LoanDate, DueDate) 
-VALUES (SELECT * BookID FROM Books WHERE Barcode IN (2855934983, 4043822646),
- 50,'2022-08-25', '2022-09-08')
+INSERT INTO Loans VALUES ((SELECT * BookID FROM Books WHERE Barcode IN (2855934983
